@@ -29,9 +29,9 @@ public class MicroAndArray {
 			if(min<K) {
 				b[m]=NT;
 				m++;
-				for(int j=0;j<NT;j++) {
-					a[j]=a[j]+1;
-				}
+			}
+			else{
+				b[m]=0;
 			}
 			
 		}
